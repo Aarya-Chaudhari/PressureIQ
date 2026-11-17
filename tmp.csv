@@ -1,0 +1,4 @@
+match_id,innings,competition,season,match_date,batting_team_id,bowling_team_id,striker_id,striker_name,bowler_id,bowler_name,score_before_delivery,wickets_before_delivery,wickets_remaining,legal_balls_before_delivery,total_innings_balls,balls_remaining,current_run_rate,target_score,runs_required,required_run_rate,innings_phase,legal_delivery,runs,extras_type,is_wicket,dismissal_type,is_four,is_six,dismissed_player_id
+1,1,Test T20I,2024,2024-01-01,10,20,1,A,2,B,0,0,10,0,120,120,0.0,,,,Powerplay,True,0,,False,,False,False,
+1,1,Test T20I,2024,2024-01-01,10,20,1,A,2,B,0,0,10,1,120,119,0.0,,,,Powerplay,True,1,,False,,False,False,
+1,2,Test T20I,2024,2024-01-01,20,10,3,C,4,D,0,0,10,0,120,120,0.0,150.0,150.0,7.5,Chase build-up,True,2,,False,,False,False,

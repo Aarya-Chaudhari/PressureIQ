@@ -1,0 +1,38 @@
+project:
+  name: PressureIQ
+  competition: "Rajasthan Royals | Player Reliability Under Pressure"
+  min_season: 2022
+  data_dir: "Data Pack"
+  output_dir: "outputs"
+  include_competitions: ["IPL", "T20I"]
+
+pressure:
+  batting_high_threshold: 70
+  batting_medium_threshold: 45
+  bowling_high_threshold: 70
+  bowling_medium_threshold: 45
+  sample_shrinkage_k: 25
+  min_pressure_balls_batter: 100
+  min_pressure_matches_batter: 8
+  min_pressure_balls_bowler: 60
+  min_pressure_matches_bowler: 8
+  batting_weights:
+    scoring_rate: 0.35
+    wicket: 0.25
+    time: 0.25
+    phase: 0.15
+  bowling_weights:
+    opposition_rate: 0.35
+    wicket_resource: 0.25
+    time: 0.25
+    match_closeness: 0.15
+
+ranking:
+  ipl_weight: 0.7
+  t20i_weight: 0.3
+  min_ipl_matches: 4
+  min_t20i_matches: 4
+  comparison_baseline: "competition_specific"
+
+logging:
+  level: INFO
